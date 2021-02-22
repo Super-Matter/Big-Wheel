@@ -1,4 +1,4 @@
-# Big Wheel
+# BETA!! Big Wheel Matthew's Edition (Not Finished Yet)
  3D-printed video control surface, and all credits go to Zack for inspiration and source files
 
 Slapped together in a weekend by Zack Freedman of Voidstar Lab for [a YouTube video! Check it out!](https://www.youtube.com/watch?v=72a85tWOJVY)
