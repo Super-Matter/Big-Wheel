@@ -1,34 +1,34 @@
 # Big Wheel
- 3D-printed video control surface
+ 3D-printed video control surface, and all credits go to Zack for inspiration and source files
 
 Slapped together in a weekend by Zack Freedman of Voidstar Lab for [a YouTube video! Check it out!](https://www.youtube.com/watch?v=72a85tWOJVY)
 
 Materials:
 - 1x each of:
     - Big Ass-Wheel.stl
-    - Body.stl
+    - Main Frame.stl
+	- Top Frame.stl
+	- Bottom Plate.stl
     - Wheel Insert.stl
-- 1x of either of the following:
-    - One print of Waffle Baseplate Combo.stl
-    - One print of Support Waffle.stl and one laser-cut Big Wheel Baseplate.ai
-- 7x 10mm M2.5 screws
-- 6x M2.5 heat-set inserts, nominal 5mm length
-- 1x M2.5 nut
+- Bunch of theese:
+	- 3x Encoder Knob.stl (if you want to use mine ones)
+	- 4x Encoder Nut.stl (if your encider module doesn't have one)
+	
+- 12x 8mm M3 screws
+- 1x M3 nut
 - 14x Cherry MX-compatible keyswitches
 - 14x keycaps for keyswitches
 - 14x rectifier diodes, such as the 1N4004
-- 4x PEC12-compatible rotary encoders with pushbutton, 15mm flatted shaft preferred
-- 3x encoder knobs, max. diameter 22mm
-- 6x rubber feet, thicker than the head of the M2.5 screws
-- 1x Teensy LC, Teensy 3.x, or Teensy 4.0
-- Zap-a-Gap or other adhesive that can bond your 3D-printing material
-- Lots of wire and heatshrink
+- 4x encoder modules
+- 4-6x rubber/felt feet
+- 1x Arduino Pro Micro clone like [this one](https://aliexpress.ru/item/1005001543169595.html?aff_fsk=_d6jWDbY&aff_platform=link-c-tool&sk=_d6jWDbY&aff_trace_key=b2942241c57e4d388145fced90f38cdd-1613820055888-02820-_d6jWDbY&dp=5f953218c74146cb8d9bcf39&terminal_id=1e685d41c3784538965a17753d13913d)
+- Lots of wire and heatshrink (as usual)
 
 Instructions:
 1. [Watch video](https://www.youtube.com/watch?v=72a85tWOJVY) to see construction overview
-2. Fabricate 3D-printed and laser-cut parts
-3. If using laser-cut Big Wheel Baseplate, glue Support Waffle onto the etched side of the Baseplate.
-4. Snap keyswitches and encoders into Body
+2. Fabricate 3D-printed parts
+3. Screw Top Frame to Main Frame using 6x 8mm M3 screws
+4. Snap keyswitches and encoders into your whole frame: keys snap in from top and good to go, encoder modules go from bottom and need to be secured with a nut from top (make sure that encoder pin got in its place).
 5. Using wiring diagram, build switch matrix. Take care to route wires away from surface that contacts Support Waffle.
 6. Connect switch matrix and encoders to Teensy. Take care to leave extra wire!
 7. Slide Teensy into its rails. It should fit snugly - if it's loose, add a bit of electrical tape to tighten things up.
